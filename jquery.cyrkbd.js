@@ -2,7 +2,7 @@
  * jQuery CyrKbd Plugin v0.0.1
  * https://github.com/dustyraven/cyrkbd
  *
- * based on Vladimir Komarov's cyrillic plugin
+ * based on Vladimir Komarov's cyrillic plugin (project's dead from 2009)
  * http://www.vlkomarov.info/projects/jquery/cyrillic/
  *
  * (c) Dusty Raven, 2013
@@ -12,7 +12,7 @@
  * Version 2, as published by Sam Hocevar.
  * See http://www.wtfpl.net/txt/copying/ for more details.
  */
-(function($) {
+;(function($) {
   var cyrkbds = {
 		'MAP':{'PHO':'BDS','BDS':'OFF','OFF':'PHO'},
 		'PHO':{65:40,66:41,67:62,68:44,69:45,70:60,71:43,72:61,73:48,74:49,75:50,76:51,77:52,78:53,79:54,80:55,81:71,82:56,83:57,84:58,85:59,86:46,87:42,88:68,89:66,90:47,91:96,92:102,93:97,96:95,97:72,98:73,99:94,100:76,101:77,102:92,103:75,104:93,105:80,106:81,107:82,108:83,109:84,110:85,111:86,112:87,113:103,114:88,115:89,116:90,117:91,118:78,119:74,120:100,121:98,122:79,123:64,124:70,125:65,126:63},
