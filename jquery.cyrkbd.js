@@ -35,11 +35,11 @@
 		});
 
 		return this.each(function() {
-			var key, _ = $(this);
-			_.on("keypress", function(e) {
+			var key, _this = $(this);
+			_this.on("keypress", function(e) {
 				if (cyrkbds[kbd] && (key = cyrkbds[kbd][e.which])) {
 					e.preventDefault();
-					_.val(_.val()+String.fromCharCode(1000+parseInt(key)));
+					_this.val(_this.val()+String.fromCharCode(1000+parseInt(key)));
 				}
 			});
 		});
