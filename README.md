@@ -1,4 +1,4 @@
 jQuery cyrkbd plugin
 ======
 
-Usage: $(".inputsSelector").cyrkbd(".landSwitch");
+Usage: $(".inputsSelector").cyrkbd(".landSwitchSelector");
